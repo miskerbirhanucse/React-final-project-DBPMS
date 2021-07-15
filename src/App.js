@@ -11,9 +11,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         {/* class="wrapper" */}
-        {/* <Header />
-      <Menu />
-      <Dashboard /> */}
+       
         <Routes />
       </div>
     </BrowserRouter>
