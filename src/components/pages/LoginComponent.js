@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import { useDispatch,useSelector } from 'react-redux';
 import { LoginAction } from '../../redux/actions/AuthActions';
 import { useHistory, Link } from 'react-router-dom';
-import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
+//import { connect } from 'react-redux';
+//import PropTypes from 'prop-types';
 function LoginComponet(props) {
    // const auth=props.auth; 
     
