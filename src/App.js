@@ -1,19 +1,22 @@
 import './App.css';
-import LoginComponet from './components/pages/LoginComponent';
+// import LoginComponet from './components/pages/LoginComponent';
 //import Header from './Header';
 //import Menu from './Menu';
 //import Dashboard from './Dashboard';
-import Register from './components/pages/RegisterComponent'
-import LoginComponent from './components/pages/LoginComponent'
+// import Register from './components/pages/RegisterComponent'
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './Routes'
 function App() {
   return (
-    <div >
-      {/* class="wrapper" */}
-      {/* <Header />
+    <BrowserRouter>
+      <div className="App">
+        {/* class="wrapper" */}
+        {/* <Header />
       <Menu />
       <Dashboard /> */}
-      <LoginComponent />
-    </div>
+        <Routes />
+      </div>
+    </BrowserRouter>
   );
 }
 
