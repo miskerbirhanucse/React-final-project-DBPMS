@@ -13,6 +13,7 @@ function App() {
       <Menu />
       <Dashboard /> */}
       <LoginComponent />
+      
     </div>
   );
 }
